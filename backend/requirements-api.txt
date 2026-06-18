@@ -1,0 +1,19 @@
+# Slim dependency set to RUN the API in all-India dataset mode (no DB, no GDAL/ML).
+# For the full satellite + ML + DB stack, use requirements.txt instead.
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+orjson==3.10.12
+loguru==0.7.3
+python-multipart==0.0.20
+httpx==0.28.1
+xhtml2pdf==0.2.16
+
+# Live data ingestion (NREGA portal scraper + data.gov.in client):
+beautifulsoup4==4.12.3
+lxml==5.3.0
+tenacity==9.0.0
+
+# Used only by the one-time dataset builder (data_ingestion/build_india_dataset.py):
+shapely==2.0.6

@@ -1,0 +1,36 @@
+{
+  "name": "mgnrega-verification-system",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MGNREGA National Verification & Fraud Intelligence System - all-India 3D dashboard",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@tanstack/react-query": "^5.51.0",
+    "axios": "^1.7.2",
+    "d3-geo": "^3.1.1",
+    "framer-motion": "^11.3.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.24.0",
+    "recharts": "^2.12.7",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.3"
+  },
+  "browserslist": [">0.2%", "not dead", "not op_mini all"]
+}

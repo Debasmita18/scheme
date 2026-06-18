@@ -1,0 +1,29 @@
+# Secrets / env
+!*.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+backend/venv/
+*.log
+logs/
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Scratch / inspection files
+backend/data/_*.py
+backend/data/_*.html
+backend/data/_*.json
+
+# OS
+.DS_Store
+Thumbs.db
