@@ -85,7 +85,7 @@ export default function GlobeHero({ geojson }) {
   return (
     <Canvas
       dpr={[1, 1.8]}
-      camera={{ position: [0, 0, 5.4], fov: 42 }}
+      camera={{ position: [0, 0, 6.5], fov: 46 }}
       gl={{ antialias: true, alpha: true }}
       style={{ width: '100%', height: '100%' }}
     >

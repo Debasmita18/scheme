@@ -96,7 +96,7 @@ export default function Dashboard() {
             </Button>
           </Box>
         </Box>
-        <Box sx={{ position: 'relative', minHeight: { xs: 220, md: 'auto' } }}>
+        <Box sx={{ position: 'relative', minHeight: { xs: 220, md: 'auto' }, height: '100%' }}>
           <Suspense fallback={<Canvas3DFallback label="Loading globe…" />}>
             <GlobeHero geojson={geo} />
           </Suspense>

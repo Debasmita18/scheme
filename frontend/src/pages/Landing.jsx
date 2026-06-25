@@ -74,7 +74,7 @@ export default function Landing() {
             </Button>
           </Box>
         </Box>
-        <Box sx={{ position: 'relative', minHeight: { xs: 240, md: 'auto' } }}>
+        <Box sx={{ position: 'relative', minHeight: { xs: 240, md: 'auto' }, height: '100%' }}>
           <Suspense fallback={null}><GlobeHero geojson={geo} /></Suspense>
         </Box>
       </Box>
